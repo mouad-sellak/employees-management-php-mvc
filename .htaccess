@@ -1,0 +1,7 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteBase /gestion-employes/
+
+RewriteRule ^([-a-zA-Z0-9]+)$ Index.php?page=$1
